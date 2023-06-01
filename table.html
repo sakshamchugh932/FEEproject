@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function show(){
+                var x=""
+                x=document.getElementById("un").value;
+                alert(x);
+                var y=document.getElementById("city").value;
+                var h=document.getElementById("city").innerHTML;
+            }
+        </script>
+    </head>
+    <body>
+        <input type="text"id="un"/>
+        <br>
+        <select id="city">
+            <option value="chandigarh">Chandigarh</option>
+            <option value="Ambala">Ambala</option>
+            <option value="Patiala">Patiala</option>
+        </select>
+        <input type="button" value="Click" onclick="show()">
+    </body>
+</html>
